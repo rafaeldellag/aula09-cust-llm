@@ -1,0 +1,30 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Caches (inclui modelos e dados baixados do Hugging Face)
+.cache/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Dados baixados
+data/
+dados/
+*.parquet
+*.arrow
+
+# Checkpoints e pesos de modelo (não versionar)
+checkpoints/
+modelos/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+
+# Sistema / editor
+.DS_Store
+.vscode/
+.idea/

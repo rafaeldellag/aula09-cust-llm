@@ -1,0 +1,14 @@
+# Versões usadas na execução do notebook (Python 3.12, Linux, GPU NVIDIA).
+# O torch do PyPI para Linux já vem com suporte a CUDA.
+torch==2.15.0
+transformers==5.24.0
+datasets==5.2.0
+scikit-learn==1.9.1
+pandas==3.1.1
+numpy==2.5.5
+matplotlib==3.11.2
+
+# Para abrir e executar o notebook localmente
+jupyter==1.1.1
+ipykernel==7.4.0
+nbconvert==7.17.2
